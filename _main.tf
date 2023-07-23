@@ -26,7 +26,7 @@ resource "aws_instance" "instance" {
   }
 }
 
-resource "aws_vpc" "vpc1" {
+resource "aws_vpc" "vpc" {
   cidr_block           = "${var.vpc-cidr-block}"
   enable_dns_hostnames = true
 
