@@ -43,13 +43,13 @@ variable "instance-tag-name" {
 variable "vpc-cidr-block" {
   description = "The CIDR block to associate to the VPC"
   type        = string
-  default     = "10.0.0.0/16"
+  default     = "192.10.0.0/16"
 }
 
 variable "subnet-cidr-block" {
   description = "The CIDR block to associate to the subnet"
   type        = string
-  default     = "10.0.1.0/24"
+  default     = "192.10.1.0/24"
 }
 
 variable "vpc-tag-name" {
