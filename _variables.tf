@@ -7,7 +7,7 @@ variable "aws-region" {
 variable "instance-ami" {
   description = "The AMI (Amazon Machine Image) that identifies the instance"
   type        = string
-  default     = "ami-053b0d53c279acc90"
+  default     = "ami-024e6efaf93d85776"
 }
 
 variable "instance-type" {
