@@ -81,6 +81,7 @@ Click job name
 Click on apply and save
 
 This is my pipeline script:
+This is my pipeline script:
 pipeline {
     agent any
     stages {
@@ -107,6 +108,7 @@ pipeline {
         }
     }
 }
+
 
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/4e5e7cb0-0f5b-433b-84af-e41880a915e4)
 Click on Build now and successfully completed 
