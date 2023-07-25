@@ -141,29 +141,35 @@ Next Enable IMAP select.
 
 
 Click on Security and select on 2-step-verication
-  
+ ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/413bd8ba-64d3-4744-b91f-b0f65cba710c)
+ 
 
 Open on App passwords 
+![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/1f7c1bb9-bc63-4f33-9a66-ed272c27308c)
  
 
 
 
 
 I am adding on windows computer
- 
+ ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/7893d814-06da-4b07-9408-9522e70a935a)
+
 
 
 Go to Jenkins 
- 
+ ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/ac2e60a9-e2ab-4879-bf55-52bdb78cf07b)
+
 Click on Manage Jenkins and go to System open 
 
 
 
 SMTP server -give as it is follow next go to advanced  click port -465 ,user name-your email id enter, password : before 2-step verification to inside App password showing on password copy to past in this email password enter 
- 
+ ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/419b91ba-93f1-4f3f-a36b-3c9731738e87)
+
 Click on Test configuration after Email successfully test showing once check your mail id
 
 Successfully triggered in Jenkins
- 
+ ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/c92acd77-3f1d-4c17-8189-e8c1468685ab)
+
 This my Canva ppt link :  
 https://www.canva.com/design/DAFph61fVvI/v4UNutGI6TnqDBq9mFGU1w/edit?utm_content=DAFph61fVvI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
