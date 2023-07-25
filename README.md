@@ -53,8 +53,8 @@ How to install JDK and Jenkins and follow below reference link:
 	https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
 How to install terraform follow the below commands:
-	snap install terraform --classic
-	terraform --version  
+   1. snap install terraform --classic
+   2. terraform --version  
 
 Part-02: AWS Terraform code modularized, to deploy VPC, Subnets, EC2, Security groups created using Terraform and run through Jenkins
 This is my git hub link: https: //github.com/anilkumarn12/final-jenkins/tree/main
