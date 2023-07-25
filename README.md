@@ -44,7 +44,7 @@ Update IAM role click
 
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/5a901242-864a-411f-a2e7-d4d430069c2b)
 
-	Click on connect
+Click on connect
 
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/5a552e81-e7e6-479f-a232-e4ee30a6a27b)
 
@@ -55,9 +55,11 @@ How to install JDK and Jenkins and follow below reference link:
 How to install terraform follow the below commands:
 	snap install terraform --classic
 	terraform --version  
+
 Part-02: AWS Terraform code modularized, to deploy VPC, Subnets, EC2, Security groups created using Terraform and run through Jenkins
 This is my git hub link: https: //github.com/anilkumarn12/final-jenkins/tree/main
 copy on public Ip address paste on new tab 54.227.177.20:8080 connect to Jenkins already I am longlined so that’s why I am enter user name and password.
+
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/c993186e-7fe3-4865-abbf-0fa03464c367)
 
  
