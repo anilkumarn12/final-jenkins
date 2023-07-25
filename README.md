@@ -72,19 +72,13 @@ My Jenkins account was opened click Manage Jenkins and open on Plugins
 I am installed terraform plugin
 
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/e3fea421-1751-4d30-aec3-d68113d6bce5)
- 
 Add access key and secret key 
+
 Click job name
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/a356485a-77c6-45f2-8024-3700fe489487)
 
-
- 
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/2a4273c9-15da-43ee-a73f-479b0cae19fd)
-
 Click on apply and save
-
-
-
 
 This is my pipeline script:
 pipeline {
@@ -115,19 +109,15 @@ pipeline {
 }
 
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/4e5e7cb0-0f5b-433b-84af-e41880a915e4)
-
- 
 Click on Build now and successfully completed 
 
  
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/e37e74f8-404a-49f9-9b4a-defdcb9e1bf0)
-
 Out put is success
 
 
 Go to EC2 instance once check created on resources
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/3602863a-7a4b-4e2f-9eaa-d2ea04c638b7)
-
 
 
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/7d7f3075-7925-4188-89de-e7a83488b62e)
@@ -141,8 +131,6 @@ Go to Gmail account open and go to settings Forwarding and POPYMAP click
 Next Enable IMAP select. 
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/a60fa5f8-d820-46b0-abbe-e78bf549c995)
 
-
-
 Click on Security and select on 2-step-verication
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/413bd8ba-64d3-4744-b91f-b0f65cba710c)
  
@@ -151,12 +139,8 @@ Open on App passwords
 ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/1f7c1bb9-bc63-4f33-9a66-ed272c27308c)
  
 
-
-
-
 I am adding on windows computer
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/7893d814-06da-4b07-9408-9522e70a935a)
-
 
 
 Go to Jenkins 
