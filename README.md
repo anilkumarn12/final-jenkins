@@ -125,6 +125,7 @@ Go to EC2 instance once check created on resources
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/7d7f3075-7925-4188-89de-e7a83488b62e)
 
 Security group also created 
+
 Step3: Successfully all created and then state file also created in S3 bucket
  ![image](https://github.com/anilkumarn12/final-jenkins/assets/134625092/fc691a7e-9ff4-4ad8-a047-d3895a1cbe7b)
 
