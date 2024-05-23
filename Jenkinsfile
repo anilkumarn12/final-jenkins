@@ -12,7 +12,6 @@ pipeline {
                 sh 'terraform init'
             }
         }
-
         stage("plan") {
             steps {
                 sh 'terraform plan'
