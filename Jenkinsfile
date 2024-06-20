@@ -1,26 +1,37 @@
 pipeline {
     agent any
+    tools {
+        maven 'Maven_Home' // Ensure this matches the name in Global Tool Configuration
+    }
+    environment {
+        MAVEN_HOME = tool name: 'Maven_Home', type: 'hudson.tasks.Maven$MavenInstallation'
+        PATH = "${env.PATH}:${MAVEN_HOME}/bin"
+    }
     stages {
         stage('Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/anilkumarn12/final-jenkins.git']])
+                git credentialsId: 'github', url: 'https://github.com/anilkumarn12/final-jenkins.git'
             }
         }
-
-        stage("terraform init") {
+        stage('Build') {
             steps {
-                sh 'terraform init'
+                script {
+                    sh 'mvn clean install'
+                }
             }
         }
-        stage("plan") {
+        stage('Test') {
             steps {
-                sh 'terraform plan'
+                script {
+                    sh 'mvn test'
+                }
             }
         }
-
-        stage("Action") {
+        stage('Deploy') {
             steps {
-                sh 'terraform apply -auto-approve'
+                script {
+                    sh 'mvn deploy'
+                }
             }
         }
     }
